@@ -11,6 +11,8 @@
 		134BC30D1711DBEF00D20F62 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134BC30C1711DBEF00D20F62 /* DetailViewController.m */; };
 		13B7A0E817D6480F00ABC133 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 13B7A0E717D6480F00ABC133 /* README.md */; };
 		13B7A0EA17D6481600ABC133 /* Blee.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B7A0E917D6481600ABC133 /* Blee.png */; };
+		13BF874617D6628B00B0077A /* UIView+ColorOfPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BF874517D6628B00B0077A /* UIView+ColorOfPoint.m */; };
+		13BF874917D6633B00B0077A /* ColorDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BF874817D6633B00B0077A /* ColorDataViewController.m */; };
 		13E4B8641710D95200FF5292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E4B8631710D95200FF5292 /* UIKit.framework */; };
 		13E4B8661710D95200FF5292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E4B8651710D95200FF5292 /* Foundation.framework */; };
 		13E4B8681710D95200FF5292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E4B8671710D95200FF5292 /* CoreGraphics.framework */; };
@@ -36,6 +38,10 @@
 		134BC30C1711DBEF00D20F62 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		13B7A0E717D6480F00ABC133 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		13B7A0E917D6481600ABC133 /* Blee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blee.png; sourceTree = "<group>"; };
+		13BF874417D6628B00B0077A /* UIView+ColorOfPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ColorOfPoint.h"; sourceTree = "<group>"; };
+		13BF874517D6628B00B0077A /* UIView+ColorOfPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ColorOfPoint.m"; sourceTree = "<group>"; };
+		13BF874717D6633B00B0077A /* ColorDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDataViewController.h; sourceTree = "<group>"; };
+		13BF874817D6633B00B0077A /* ColorDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDataViewController.m; sourceTree = "<group>"; };
 		13E4B8601710D95200FF5292 /* Blee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E4B8631710D95200FF5292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13E4B8651710D95200FF5292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13BF874317D6627200B0077A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				134BC30817111FA500D20F62 /* UIImage+Color.h */,
+				134BC30917111FA500D20F62 /* UIImage+Color.m */,
+				13BF874417D6628B00B0077A /* UIView+ColorOfPoint.h */,
+				13BF874517D6628B00B0077A /* UIView+ColorOfPoint.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		13E4B8571710D95200FF5292 = {
 			isa = PBXGroup;
 			children = (
@@ -119,10 +136,11 @@
 				13E4B8901710DB4900FF5292 /* MasterTableViewController.m */,
 				134BC30B1711DBEF00D20F62 /* DetailViewController.h */,
 				134BC30C1711DBEF00D20F62 /* DetailViewController.m */,
+				13BF874717D6633B00B0077A /* ColorDataViewController.h */,
+				13BF874817D6633B00B0077A /* ColorDataViewController.m */,
+				13BF874317D6627200B0077A /* Categories */,
 				13E4B8891710D96000FF5292 /* Resources */,
 				13E4B86A1710D95200FF5292 /* Supporting Files */,
-				134BC30817111FA500D20F62 /* UIImage+Color.h */,
-				134BC30917111FA500D20F62 /* UIImage+Color.m */,
 			);
 			path = Blee;
 			sourceTree = "<group>";
@@ -246,6 +264,8 @@
 				13E4B89A1710E12C00FF5292 /* ColorFamily.m in Sources */,
 				134BC30A17111FA500D20F62 /* UIImage+Color.m in Sources */,
 				134BC30D1711DBEF00D20F62 /* DetailViewController.m in Sources */,
+				13BF874617D6628B00B0077A /* UIView+ColorOfPoint.m in Sources */,
+				13BF874917D6633B00B0077A /* ColorDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

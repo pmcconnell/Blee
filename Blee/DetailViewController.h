@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DetailViewController : UIViewController <UISplitViewControllerDelegate, UIGestureRecognizerDelegate>
 
 @property (weak, nonatomic) IBOutlet UINavigationBar *navBar;
 
@@ -48,6 +48,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *compImageView2;
 @property (weak, nonatomic) IBOutlet UIImageView *compImageView3;
 @property (weak, nonatomic) IBOutlet UIImageView *compImageView4;
+
+- (IBAction)showColorPopover:(UITapGestureRecognizer *)recognizer;
 
 - (void)initializeWithBaseColor:(UIColor *)baseColor named:(NSString *)baseColorName;
 @end

@@ -9,6 +9,8 @@
 #import "DetailViewController.h"
 #import "Colours.h"
 #import "UIImage+Color.h"
+#import "UIView+ColorOfPoint.h"
+#import "ColorDataViewController.h"
 
 @interface DetailViewController ()
 @property (strong, nonatomic) UIColor *baseColor;
@@ -24,6 +26,8 @@
   [super viewDidLoad];
 //  UISplitViewController *splitVC = (UISplitViewController *)self.navigationController.parentViewController;
 //  splitVC.delegate = self;
+  
+  self.navigationController.navigationBar.translucent = NO;
   
   [self initializeWithBaseColor:ColorInfoBlue named:@"Info Blue"];
 }
@@ -147,6 +151,20 @@
   self.popover = nil;
 }
 
+#pragma mark - Gesture Recognizer
 
+- (IBAction)showColorPopover:(UITapGestureRecognizer *)tap {
+  NSLog(@"Show popover");
+  UIStoryboard *storyboard = self.storyboard;
+  ColorDataViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"colorDetail"];
+  
+  UIColor *color = [self.view colorOfPoint:[tap locationInView:self.view]];
+  vc.color = color;
+  
+  self.popover = [[UIPopoverController alloc]initWithContentViewController:vc];
+  CGPoint touch = [tap locationInView:self.view];
+  CGRect rect = CGRectMake(touch.x, touch.y, 20.0, 20.0);
+  [self.popover presentPopoverFromRect:rect inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+}
 
 @end
