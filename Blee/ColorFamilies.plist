@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>System Colors</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorInfoBlue</string>
+			<string>ColorSuccess</string>
+			<string>ColorWarning</string>
+			<string>ColorDanger</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Whites</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorAntiqueWhite</string>
+			<string>ColorOldLace</string>
+			<string>ColorIvory </string>
+			<string>ColorSeashell</string>
+			<string>ColorGhostWhite </string>
+			<string>ColorSnow  </string>
+			<string>ColorLinen </string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Grays</string>
+		<key>colorNames</key>
+		<array>
+			<string>Color25PercentBlack</string>
+			<string>Color50PercentBlack</string>
+			<string>Color75PercentBlack</string>
+			<string>ColorWarmGray </string>
+			<string>ColorCoolGray </string>
+			<string>ColorCharcoal</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Blues</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorTeal</string>
+			<string>ColorSteelBlue</string>
+			<string>ColorRobinEgg </string>
+			<string>ColorPastelBlue</string>
+			<string>ColorTurquoise</string>
+			<string>ColorSkyBlue</string>
+			<string>ColorIndigo </string>
+			<string>ColorDenim </string>
+			<string>ColorBlueberry</string>
+			<string>ColorCornflower</string>
+			<string>ColorBabyBlue </string>
+			<string>ColorMidnightBlue</string>
+			<string>ColorFadedBlue </string>
+			<string>ColorIceberg </string>
+			<string>ColorWave </string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Greens</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorEmerald</string>
+			<string>ColorGrass</string>
+			<string>ColorPastelGreen </string>
+			<string>ColorSeafoam </string>
+			<string>ColorPaleGreen </string>
+			<string>ColorCactusGreen</string>
+			<string>ColorChartreuse</string>
+			<string>ColorHollyGreen </string>
+			<string>ColorOlive</string>
+			<string>ColorOliveDrab</string>
+			<string>ColorMoneyGreen</string>
+			<string>ColorHoneydew  </string>
+			<string>ColorLime  </string>
+			<string>ColorCardTable</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Reds</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorSalmon</string>
+			<string>ColorBrickRed</string>
+			<string>ColorEasterPink</string>
+			<string>ColorGrapefruit</string>
+			<string>ColorPink </string>
+			<string>ColorIndianRed </string>
+			<string>ColorStrawberry</string>
+			<string>ColorCoral</string>
+			<string>ColorMaroon </string>
+			<string>ColorWatermelon </string>
+			<string>ColorTomato </string>
+			<string>ColorPinkLipstick</string>
+			<string>ColorPaleRose</string>
+			<string>ColorCrimson </string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Purples</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorEggplant</string>
+			<string>ColorPastelPurple</string>
+			<string>ColorPalePurple </string>
+			<string>ColorCoolPurple</string>
+			<string>ColorViolet</string>
+			<string>ColorPlum</string>
+			<string>ColorLavender</string>
+			<string>ColorRaspberry</string>
+			<string>ColorFuschia</string>
+			<string>ColorGrape</string>
+			<string>ColorPeriwinkle</string>
+			<string>ColorOrchid </string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yellows</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorGoldenrod</string>
+			<string>ColorYellowGreen</string>
+			<string>ColorBanana</string>
+			<string>ColorMustard </string>
+			<string>ColorButtermilk</string>
+			<string>ColorGold </string>
+			<string>ColorCream </string>
+			<string>ColorLightCream</string>
+			<string>ColorWheat </string>
+			<string>ColorBeige </string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oranges</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorPeach</string>
+			<string>ColorBurntOrange</string>
+			<string>ColorPastelOrange</string>
+			<string>ColorCantaloupe</string>
+			<string>ColorCarrot </string>
+			<string>ColorMandarin </string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Browns</string>
+		<key>colorNames</key>
+		<array>
+			<string>ColorChiliPowder</string>
+			<string>ColorBurntSienna</string>
+			<string>ColorChocolate </string>
+			<string>ColorCoffee </string>
+			<string>ColorCinnamon</string>
+			<string>ColorAlmond</string>
+			<string>ColorEggshell </string>
+			<string>ColorCoffee</string>
+			<string>ColorSand </string>
+			<string>ColorMud</string>
+			<string>ColorSienna</string>
+			<string>ColorDust</string>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134BC30A17111FA500D20F62 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 134BC30917111FA500D20F62 /* UIImage+Color.m */; };
+		134BC30D1711DBEF00D20F62 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134BC30C1711DBEF00D20F62 /* DetailViewController.m */; };
+		13B7A0E817D6480F00ABC133 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 13B7A0E717D6480F00ABC133 /* README.md */; };
+		13B7A0EA17D6481600ABC133 /* Blee.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B7A0E917D6481600ABC133 /* Blee.png */; };
 		13E4B8641710D95200FF5292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E4B8631710D95200FF5292 /* UIKit.framework */; };
 		13E4B8661710D95200FF5292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E4B8651710D95200FF5292 /* Foundation.framework */; };
 		13E4B8681710D95200FF5292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E4B8671710D95200FF5292 /* CoreGraphics.framework */; };
@@ -18,10 +22,20 @@
 		13E4B87A1710D95200FF5292 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E4B8791710D95200FF5292 /* Default-568h@2x.png */; };
 		13E4B87D1710D95200FF5292 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E4B87B1710D95200FF5292 /* MainStoryboard_iPhone.storyboard */; };
 		13E4B8801710D95300FF5292 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E4B87E1710D95300FF5292 /* MainStoryboard_iPad.storyboard */; };
-		13E4B8831710D95300FF5292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B8821710D95300FF5292 /* ViewController.m */; };
+		13E4B88D1710D9F500FF5292 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B88C1710D9F500FF5292 /* Colours.m */; };
+		13E4B8911710DB4900FF5292 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B8901710DB4900FF5292 /* MasterTableViewController.m */; };
+		13E4B8971710E0DB00FF5292 /* ColorsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B8961710E0DB00FF5292 /* ColorsController.m */; };
+		13E4B89A1710E12C00FF5292 /* ColorFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4B8991710E12C00FF5292 /* ColorFamily.m */; };
+		13E4B89C1710E5CD00FF5292 /* ColorFamilies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13E4B89B1710E5CD00FF5292 /* ColorFamilies.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		134BC30817111FA500D20F62 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		134BC30917111FA500D20F62 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		134BC30B1711DBEF00D20F62 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		134BC30C1711DBEF00D20F62 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		13B7A0E717D6480F00ABC133 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		13B7A0E917D6481600ABC133 /* Blee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blee.png; sourceTree = "<group>"; };
 		13E4B8601710D95200FF5292 /* Blee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E4B8631710D95200FF5292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13E4B8651710D95200FF5292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,8 +51,15 @@
 		13E4B8791710D95200FF5292 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		13E4B87C1710D95200FF5292 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		13E4B87F1710D95300FF5292 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		13E4B8811710D95300FF5292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13E4B8821710D95300FF5292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13E4B88B1710D9F500FF5292 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		13E4B88C1710D9F500FF5292 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		13E4B88F1710DB4900FF5292 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		13E4B8901710DB4900FF5292 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+		13E4B8951710E0DB00FF5292 /* ColorsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsController.h; sourceTree = "<group>"; };
+		13E4B8961710E0DB00FF5292 /* ColorsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsController.m; sourceTree = "<group>"; };
+		13E4B8981710E12C00FF5292 /* ColorFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorFamily.h; sourceTree = "<group>"; };
+		13E4B8991710E12C00FF5292 /* ColorFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorFamily.m; sourceTree = "<group>"; };
+		13E4B89B1710E5CD00FF5292 /* ColorFamilies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorFamilies.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +106,21 @@
 		13E4B8691710D95200FF5292 /* Blee */ = {
 			isa = PBXGroup;
 			children = (
+				13E4B88E1710DA0000FF5292 /* Colours */,
 				13E4B8721710D95200FF5292 /* AppDelegate.h */,
 				13E4B8731710D95200FF5292 /* AppDelegate.m */,
-				13E4B87B1710D95200FF5292 /* MainStoryboard_iPhone.storyboard */,
-				13E4B87E1710D95300FF5292 /* MainStoryboard_iPad.storyboard */,
-				13E4B8811710D95300FF5292 /* ViewController.h */,
-				13E4B8821710D95300FF5292 /* ViewController.m */,
+				13E4B8981710E12C00FF5292 /* ColorFamily.h */,
+				13E4B8991710E12C00FF5292 /* ColorFamily.m */,
+				13E4B8951710E0DB00FF5292 /* ColorsController.h */,
+				13E4B8961710E0DB00FF5292 /* ColorsController.m */,
+				13E4B88F1710DB4900FF5292 /* MasterTableViewController.h */,
+				13E4B8901710DB4900FF5292 /* MasterTableViewController.m */,
+				134BC30B1711DBEF00D20F62 /* DetailViewController.h */,
+				134BC30C1711DBEF00D20F62 /* DetailViewController.m */,
+				13E4B8891710D96000FF5292 /* Resources */,
 				13E4B86A1710D95200FF5292 /* Supporting Files */,
+				134BC30817111FA500D20F62 /* UIImage+Color.h */,
+				134BC30917111FA500D20F62 /* UIImage+Color.m */,
 			);
 			path = Blee;
 			sourceTree = "<group>";
@@ -108,6 +137,35 @@
 				13E4B8791710D95200FF5292 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13E4B8891710D96000FF5292 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B88A1710D96E00FF5292 /* Interface */,
+				13B7A0E717D6480F00ABC133 /* README.md */,
+				13B7A0E917D6481600ABC133 /* Blee.png */,
+				13E4B89B1710E5CD00FF5292 /* ColorFamilies.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13E4B88A1710D96E00FF5292 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B87B1710D95200FF5292 /* MainStoryboard_iPhone.storyboard */,
+				13E4B87E1710D95300FF5292 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		13E4B88E1710DA0000FF5292 /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B88B1710D9F500FF5292 /* Colours.h */,
+				13E4B88C1710D9F500FF5292 /* Colours.m */,
+			);
+			name = Colours;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +225,9 @@
 				13E4B87A1710D95200FF5292 /* Default-568h@2x.png in Resources */,
 				13E4B87D1710D95200FF5292 /* MainStoryboard_iPhone.storyboard in Resources */,
 				13E4B8801710D95300FF5292 /* MainStoryboard_iPad.storyboard in Resources */,
+				13E4B89C1710E5CD00FF5292 /* ColorFamilies.plist in Resources */,
+				13B7A0E817D6480F00ABC133 /* README.md in Resources */,
+				13B7A0EA17D6481600ABC133 /* Blee.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +240,12 @@
 			files = (
 				13E4B8701710D95200FF5292 /* main.m in Sources */,
 				13E4B8741710D95200FF5292 /* AppDelegate.m in Sources */,
-				13E4B8831710D95300FF5292 /* ViewController.m in Sources */,
+				13E4B88D1710D9F500FF5292 /* Colours.m in Sources */,
+				13E4B8911710DB4900FF5292 /* MasterTableViewController.m in Sources */,
+				13E4B8971710E0DB00FF5292 /* ColorsController.m in Sources */,
+				13E4B89A1710E12C00FF5292 /* ColorFamily.m in Sources */,
+				134BC30A17111FA500D20F62 /* UIImage+Color.m in Sources */,
+				134BC30D1711DBEF00D20F62 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +378,7 @@
 				13E4B8881710D95300FF5292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
