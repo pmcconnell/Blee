@@ -79,6 +79,8 @@
 		13E4B8571710D95200FF5292 = {
 			isa = PBXGroup;
 			children = (
+				13B7A0E717D6480F00ABC133 /* README.md */,
+				13B7A0E917D6481600ABC133 /* Blee.png */,
 				13E4B8691710D95200FF5292 /* Blee */,
 				13E4B8621710D95200FF5292 /* Frameworks */,
 				13E4B8611710D95200FF5292 /* Products */,
@@ -143,8 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				13E4B88A1710D96E00FF5292 /* Interface */,
-				13B7A0E717D6480F00ABC133 /* README.md */,
-				13B7A0E917D6481600ABC133 /* Blee.png */,
 				13E4B89B1710E5CD00FF5292 /* ColorFamilies.plist */,
 			);
 			name = Resources;
