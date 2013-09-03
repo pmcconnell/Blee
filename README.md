@@ -2,7 +2,7 @@
 
 ###A Color Palette App for iPad
 
-![Blee Screenshot](Blee.png)
+![Blee Screenshot](./Blee.png)
 
 **Blee** is a an iPad app to help generate and select color palettes for your apps.
 
